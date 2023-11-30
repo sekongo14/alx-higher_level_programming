@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i in range(65, 90 + 1):
-    print(chr(i), end="\n" if i == 90 else "")
+if __name__ == "__main__":
+    print(''.join(chr(i) for i in range(ord('A'), ord('Z')+1)), end='\n')
