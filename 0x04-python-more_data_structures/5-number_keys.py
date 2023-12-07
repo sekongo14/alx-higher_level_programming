@@ -1,6 +1,4 @@
 #!/usr/bin/python3
 def number_keys(a_dictionary):
-    key = 0
-    for key in a_dictionary:
-        key += 1
+    key = len(a_dictionary.keys())
     return key    
