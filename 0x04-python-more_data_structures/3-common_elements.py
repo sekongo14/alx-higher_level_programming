@@ -5,4 +5,4 @@ def common_elements(set_1, set_2):
         for mot2 in set_2:
             if mot1 == mot2:
                 list_t.append(mot1)
-    return set(list_t)            
+    return set(list_t)
