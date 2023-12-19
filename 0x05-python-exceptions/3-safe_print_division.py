@@ -7,5 +7,6 @@ def safe_print_division(a, b):
     except(ZeroDivisionError):
         return None
     finally:
-        print("Inside result {}".format(div))
-        print("{} / {} = {}".format(a, b, div))
+        pass
+    print("Inside result {}".format(div))
+    print("{} / {} = {}".format(a, b, div))
