@@ -26,11 +26,6 @@ def list_division(my_list_1, my_list_2, list_length):
             print("out of range")
             result.append(0)
 
-        except Exception as e:
-            # Handle other exceptions
-            print(f"Error: {e}")
-            result.append(0)
-
         finally:
             # Optional: Any cleanup code that should be executed
             pass
